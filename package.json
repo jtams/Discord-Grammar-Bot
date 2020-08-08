@@ -1,0 +1,23 @@
+{
+  "name": "discord-grammar-bot",
+  "version": "1.0.0",
+  "description": "Simple discord bot that uses the grammarbot.io api to correct grammar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtams/Discord-Grammar-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtams/Discord-Grammar-Bot/issues"
+  },
+  "homepage": "https://github.com/jtams/Discord-Grammar-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "grammarbot": "^1.0.3"
+  }
+}
