@@ -42,26 +42,6 @@ function getCorrection(data) {
         }
     });
     if (msg == "*, *") msg = "";
-    if (count > 2) {
-        responses = [
-            "Too many mistakes for me to understand. :(",
-            "https://www.spellingcity.com/spelling-games-vocabulary-games.html",
-            "Please use english.",
-            "wtf???",
-            "Get gooder grammer pls",
-            "No clue what that means, but I can tell you that it's wrong.",
-            "Error: Maximum grammar errors exceeded!",
-            "What?",
-            "https://www.dictionary.com/",
-            "Please resend that... but better.",
-            "Please rethink what you just said.",
-            "Please read before you hit send.",
-            "MY EYES!!!",
-            "Error: System overload! Shutting down...",
-            "I can only assume you're still in kindergarden with that spelling",
-        ];
-        msg = responses[Math.floor(Math.random() * responses.length)];
-    }
     return msg;
 }
 
